@@ -21,9 +21,9 @@ class FumettiSeeder extends Seeder
                 'vote' => $faker->numberBetween($min=0, $max=10) 
             ];
 
-            $fumetto = new Fumetti;
-            $fumetto->fill($data);
-            $fumetto->save();
+            $fumetti = new Fumetti;
+            $fumetti->fill($data);
+            $fumetti->save();
         }
     }
 }
