@@ -31,6 +31,6 @@ class CreateFumettisTable extends Migration
      */
     public function down()
     {
-        Schema::dropIfExists('fumetti');
+        Schema::dropIfExists('fumettis');
     }
 }
