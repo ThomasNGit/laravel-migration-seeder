@@ -12,7 +12,7 @@ class FumettiSeeder extends Seeder
      */
     public function run(Faker $faker)
     {
-        for ($i=0; $i < 10; $i++) { 
+        for ($i=0; $i < 11; $i++) { 
             $data = [
                 'title' => $faker->word,
                 'author' => $faker->name,
